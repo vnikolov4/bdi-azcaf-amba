@@ -3,61 +3,61 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "AzureCAF"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "AzureCAF"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "AzureCAF"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "AzureCAF"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "AzureCAF"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "AzureCAF"
     },
     "enableAMBAConnectivity": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAIdentity": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAManagement": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAServiceHealth": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBANotificationAssets": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAHybridVM": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAKeyManagement": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBALoadBalancing": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBANetworkChanges": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBARecoveryServices": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAStorage": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAVM": {
       "value": "Yes"
     },
     "enableAMBAWeb": {
-      "value": "Yes"
+      "value": "No"
     },
     "telemetryOptOut": {
       "value": "No"
@@ -72,13 +72,13 @@
       "value": "id-amba-prod-001"
     },
     "managementSubscriptionId": {
-      "value": ""
+      "value": "652f7618-35bb-4778-973d-5cb72cd63560"
     },
     "ALZMonitorResourceGroupName": {
       "value": "rg-amba-monitoring-001"
     },
     "ALZMonitorResourceGroupLocation": {
-      "value": "eastus"
+      "value": "westeurope"
     },
     "ALZMonitorResourceGroupTags": {
       "value": {
@@ -97,7 +97,7 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": []
+      "value": ["vasil.nikolov@digitall.com"]
     },
     "ALZLogicappResourceId": {
       "value": ""
