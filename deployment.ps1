@@ -5,9 +5,6 @@ Connect-AzAccount -Tenant 3da350d5-6b6c-4c4c-b9c1-6cddbb692040 -UseDeviceAuthent
 Get-AzContext | FL
 
 
-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
-git remote add origin https://vnikolov4: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@github.com/vnikolov4/bdi-azcaf-amba.git
-
 https://github.com/vnikolov4/bdi-azcaf-amba.git
 
 # check for: 
