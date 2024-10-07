@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "AzureCAF"
+      "value": "mg-bdi-azcaf"
     },
     "platformManagementGroup": {
-      "value": "AzureCAF"
+      "value": "mg-bdi-azcaf"
     },
     "IdentityManagementGroup": {
-      "value": "AzureCAF"
+      "value": "mg-bdi-azcaf"
     },
     "managementManagementGroup": {
-      "value": "AzureCAF"
+      "value": "mg-bdi-azcaf"
     },
     "connectivityManagementGroup": {
-      "value": "AzureCAF"
+      "value": "mg-bdi-azcaf"
     },
     "LandingZoneManagementGroup": {
-      "value": "AzureCAF"
+      "value": "mg-bdi-azcaf"
     },
     "enableAMBAConnectivity": {
       "value": "No"
@@ -69,16 +69,16 @@
       "value": ""
     },
     "userAssignedManagedIdentityName": {
-      "value": "id-amba-prod-001"
+      "value": "uid-plz-pr-eus-amba-01"
     },
     "managementSubscriptionId": {
-      "value": "652f7618-35bb-4778-973d-5cb72cd63560"
+      "value": "6d8f40f5-c392-4b15-a64c-98c0cca8803a"
     },
     "ALZMonitorResourceGroupName": {
-      "value": "rg-amba-monitoring-001"
+      "value": "rg-plz-pr-eus-amba-01"
     },
     "ALZMonitorResourceGroupLocation": {
-      "value": "westeurope"
+      "value": "eastus"
     },
     "ALZMonitorResourceGroupTags": {
       "value": {
