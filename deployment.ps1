@@ -16,8 +16,8 @@ $location = "eastus"
 $pseudoRootManagementGroup = "mg-bdi-azcaf"
 
 # Deployment for main branch
-https://raw.githubusercontent.com/vnikolov4/bdi-azcaf-amba/main/patterns/alz/alzArm.json
-https://raw.githubusercontent.com/vnikolov4/bdi-azcaf-amba/main/patterns/alz/alzArm.param.json
+# $TemplateUri          = https://raw.githubusercontent.com/vnikolov4/bdi-azcaf-amba/main/patterns/alz/alzArm.json
+# $TemplateParameterUri = https://raw.githubusercontent.com/vnikolov4/bdi-azcaf-amba/main/patterns/alz/alzArm.param.json
 New-AzManagementGroupDeployment -Name "amba-GeneralDeployment" -ManagementGroupId $pseudoRootManagementGroup -Location $location -TemplateUri "https://raw.githubusercontent.com/vnikolov4/bdi-azcaf-amba/main/patterns/alz/alzArm.json" -TemplateParameterUri "https://raw.githubusercontent.com/vnikolov4/bdi-azcaf-amba/main/patterns/alz/alzArm.param.json"
 # ===========================================
 
@@ -47,3 +47,9 @@ $LZManagementGroup="mg-bdi-azcaf"
 # ============================================= Build policies.json file. Regardless you’re modifying existing policies or adding new ones, you need to update the policies.bicep file.
 bicep build .\patterns\alz\templates\policies.bicep --outfile .\patterns\alz\policyDefinitions\policies.json  
 # ===========================================
+
+# ====================== AMBA Clean-up ======================
+# Go to the C:\DevOps\amba\bdi-azcaf-amba\patterns\alz\scripts
+$pseudoRootManagementGroup = "AzureCAF"
+./Start-AMBACleanup.ps1 -pseudoRootManagementGroup $pseudoRootManagementGroup -WhatIf
+./Start-AMBACleanup.ps1 -pseudoRootManagementGroup $pseudoRootManagementGroup

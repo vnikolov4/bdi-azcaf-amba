@@ -311,7 +311,7 @@
       },
       "VMNetworkInAlertState": {
         "type": "string",
-        "defaultValue": "true",
+        "defaultValue": "false",
         "metadata": {
           "displayName": "VM Network In Alert State",
           "description": "Alert state for the alert"
@@ -459,7 +459,7 @@
       },
       "VMNetworkOutAlertState": {
         "type": "string",
-        "defaultValue": "true",
+        "defaultValue": "false",
         "metadata": {
           "displayName": "VM Network Out Alert State",
           "description": "Alert state for the alert, true will enable the alert, false will disable the alert"
@@ -607,7 +607,7 @@
       },
       "VMOSDiskReadLatencyAlertState": {
         "type": "string",
-        "defaultValue": "true",
+        "defaultValue": "false",
         "metadata": {
           "displayName": "VM OS Disk Read Latency Alert State",
           "description": "Alert state for the alert, true will enable the alert, false will disable the alert"
@@ -755,7 +755,7 @@
       },
       "VMOSDiskWriteLatencyAlertState": {
         "type": "string",
-        "defaultValue": "true",
+        "defaultValue": "false",
         "metadata": {
           "displayName": "VM OS Disk Write Latency Alert State",
           "description": "Alert state for the alert, true will enable the alert, false will disable the alert"
@@ -1463,7 +1463,7 @@
       },
       "VMDataDiskReadLatencyAlertState": {
         "type": "string",
-        "defaultValue": "true",
+        "defaultValue": "false",
         "metadata": {
           "displayName": "VM Data Disk Read Latency Alert State",
           "description": "Alert state for the alert, true will enable the alert, false will disable the alert"
@@ -1611,7 +1611,7 @@
       },
       "VMDataDiskWriteLatencyAlertState": {
         "type": "string",
-        "defaultValue": "true",
+        "defaultValue": "false",
         "metadata": {
           "displayName": "VM Data Disk Write Latency Alert State",
           "description": "Alert state for the alert, true will enable the alert, false will disable the alert"
