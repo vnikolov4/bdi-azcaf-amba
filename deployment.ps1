@@ -2,18 +2,14 @@
 Logout-AzAccount
 #BDI:
 Connect-AzAccount -Tenant 43881547-223e-4de0-9ff7-dc777c8d73f1 -UseDeviceAuthentication
+Connect-AzAccount -Subscription BDI-Platform-EUS-01 -Tenant 43881547-223e-4de0-9ff7-dc777c8d73f1
+Set-AzContext -Subscription BDI-Platform-EUS-01
+Set-AzContext -Subscription "6d8f40f5-c392-4b15-a64c-98c0cca8803a"
 Get-AzContext | FL
 
 
 https://github.com/vnikolov4/bdi-azcaf-amba.git
 
-# check for: 
-# Az.Accounts
-# Az.Resources
-Get-InstalledModule -Name "Az.Accounts" 
-Get-InstalledModule -Name "Az.Resources" 
-# ===========================================
-#Dev
 # =========================================== Perform alzArm.json deployment
 # Configuring variables for deployment
 $location = "eastus"
