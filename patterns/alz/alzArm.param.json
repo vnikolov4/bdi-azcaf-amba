@@ -48,7 +48,7 @@
       "value": "No"
     },
     "enableAMBARecoveryServices": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAStorage": {
       "value": "No"
@@ -97,7 +97,7 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": ["vasil.nikolov@digitall.com"]
+      "value": ["vasil.nikolov@digitall.com", "bdi@digitall-portal.atlassian.net", "cis.bdi.azure@digitall.com"]
     },
     "ALZLogicappResourceId": {
       "value": ""
